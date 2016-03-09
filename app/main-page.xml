@@ -1,0 +1,23 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:lv="nativescript-telerik-ui/listview" loaded="loaded">
+  <grid-layout rows="auto, *">
+    <button row="0" text="Add item" tap="add" />
+
+    <!-- This doesn’t work -->
+    <lv:rad-list-view items="{{ items }}" row="1">
+      <lv:rad-list-view.listViewLayout>
+        <lv:ListViewLinearLayout scrollDirection="Vertical" />
+      </lv:rad-list-view.listViewLayout>
+    
+      <lv:rad-list-view.itemTemplate>
+        <label text="{{ name }}" />
+      </lv:rad-list-view.itemTemplate>
+    </lv:rad-list-view>
+    
+    <!-- This works -->
+    <!--<list-view items="{{ items }}" row="1">
+      <lv:rad-list-view.itemTemplate>
+        <label text="{{ name }}" />
+      </lv:rad-list-view.itemTemplate>
+    </list-view>-->
+  </grid-layout>
+</page>

@@ -1,0 +1,15 @@
+{
+	"nativescript": {
+		"id": "org.nativescript.listviewissues",
+		"tns-ios": {
+			"version": "1.6.0"
+		},
+		"tns-android": {
+			"version": "1.6.3"
+		}
+	},
+	"dependencies": {
+		"tns-core-modules": "1.6.2",
+		"nativescript-telerik-ui": "file:nativescript-ui-release-dev.tgz"
+	}
+}
