@@ -2,8 +2,7 @@
   <grid-layout rows="auto, *">
     <button row="0" text="Add item" tap="add" />
 
-    <!-- This doesn’t work -->
-    <lv:rad-list-view items="{{ items }}" row="1">
+    <!--<lv:rad-list-view items="{{ items }}" row="1">
       <lv:rad-list-view.listViewLayout>
         <lv:ListViewLinearLayout scrollDirection="Vertical" />
       </lv:rad-list-view.listViewLayout>
@@ -11,13 +10,13 @@
       <lv:rad-list-view.itemTemplate>
         <label text="{{ name }}" />
       </lv:rad-list-view.itemTemplate>
-    </lv:rad-list-view>
+    </lv:rad-list-view>-->
     
     <!-- This works -->
-    <!--<list-view items="{{ items }}" row="1">
+    <list-view items="{{ items }}" row="1">
       <lv:rad-list-view.itemTemplate>
         <label text="{{ name }}" />
       </lv:rad-list-view.itemTemplate>
-    </list-view>-->
+    </list-view>
   </grid-layout>
 </page>

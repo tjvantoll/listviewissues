@@ -10,6 +10,6 @@
 	},
 	"dependencies": {
 		"tns-core-modules": "1.6.2",
-		"nativescript-telerik-ui": "file:nativescript-ui-release-dev.tgz"
+		"nativescript-telerik-ui": "file:nativescript-ui-debug-dev.tgz"
 	}
 }
